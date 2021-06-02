@@ -30,6 +30,11 @@ public class CardTrick {
             
             magicHand [i] = c;   
         }
+        
+        Card luckyCard = new Card();
+        int num = 2;
+        String card = Hearts;
+        
         //printing the magigHand array
         for(int i =0; i< magicHand.length; i++){
             System.out.println(magicHand[i].getSuit()+" "
